@@ -1,1 +1,3 @@
 Adding a new file
+
+Adding this change to test the stash feature in the git
