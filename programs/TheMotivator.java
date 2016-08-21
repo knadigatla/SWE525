@@ -1,4 +1,5 @@
 public class TheMotivator {
+  List<String> peopleList = new ArrayList<String>();
 	public void studentFeedBack(int score) {
 		if (score == 100)
 			System.out.println("You're awesome");
@@ -12,10 +13,18 @@ public class TheMotivator {
 
   public void sayHello() {
     System.out.println("Hello, Stranger !!");
-    System.out.println("Below is Your Feedback Mr. Stranger!");    
+    System.out.println("List Of students:");
+    for(int i=0; i < peopleList.size(); i++)
+      System.out.println(peopleList.get(i));
+
+    System.out.println("Below is Your Feedback Mr. Stranger!");
+
   }
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
+    tm.peopleList.add("Kiran");
+    tm.peopleList.add("Andrew");
+    tm.peopleList.add("Chris");
     sayHello();
 		tm.feedback(60);
 	}
