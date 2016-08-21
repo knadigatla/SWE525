@@ -1,0 +1,30 @@
+*   Merge branch 'moreHellos_branch'
+|\  
+| * better messaging in sayHello
+* |   Resolved Merge Conflicts
+|\ \  
+| |/  
+| * added list of students to the class (Assignment1, Task D)
+* | Refactor: updated messages in sayHello method
+|/  
+*   Merge branch 'sayHello_branch'
+|\  
+| * Refactor: added header in sayHellow method (Assignment1, Task D)
+| * added sayHellow method (Assignment1, Task D)
+* | Refactor: updated the failed message (Assignemnt1, Task D)
+|/  
+* refactor: changed the function name to studentFeedback, (Assignment1, task D)
+* initial commit for Assignment1, task D
+*   Merge branch 'feature_branch'
+|\  
+| * committing changes in branch feature_branch
+* | performed stashing branch feature_branch and applied in master
+|/  
+* adding some more changes to test the merge, to branch feature1-brabch
+* updated file in branch feature
+* testing stash feature
+* Create anotherNewFile.txt
+* Create newFile.txt
+* Assignemt1, added a file, modified another file and removed another file
+* README.md added
+* Message to Commit
