@@ -9,8 +9,14 @@ public class TheMotivator {
 		else
 			System.out.println("Sorry man, You have failed yourself!");
 	}
+
+  public void sayHello() {
+    System.out.println("Hello, Stranger !!");
+    System.out.println("Here is your Feedback -->");    
+  }
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
+    sayHello();
 		tm.feedback(60);
 	}
 }
