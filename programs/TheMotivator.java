@@ -12,6 +12,7 @@ public class TheMotivator {
 
   public void sayHello() {
     System.out.println("Hello, Stranger !!");
+    System.out.println("Here is your Feedback -->");    
   }
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
