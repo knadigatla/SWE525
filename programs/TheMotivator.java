@@ -13,7 +13,7 @@ public class TheMotivator {
 
   public void sayHello() {
     System.out.println("Hello, Stranger !!");
-    System.out.println("List Of students:");
+    System.out.println("List Of Student Names:");
     for(int i=0; i < peopleList.size(); i++)
       System.out.println(peopleList.get(i));
 
