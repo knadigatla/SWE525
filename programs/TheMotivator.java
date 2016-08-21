@@ -7,7 +7,7 @@ public class TheMotivator {
 		else if (score > 60)
 			System.out.println("That's good ");
 		else
-			System.out.println("Well, what can I say?");
+			System.out.println("Sorry man, You have failed yourself!");
 	}
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
