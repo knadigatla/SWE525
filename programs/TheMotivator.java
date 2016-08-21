@@ -1,5 +1,5 @@
 public class TheMotivator {
-	public void feedback(int score) {
+	public void studentFeedBack(int score) {
 		if (score == 100)
 			System.out.println("You're awesome");
 		else if (score > 90)
